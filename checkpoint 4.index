@@ -1,0 +1,75 @@
+Exercise 1: Create a list, tuple, float, integer, decimal, and dictionary.
+
+lista = [‘bateria’, ‘guitarra’, ‘bajo’, ‘voz’]
+print (lista)
+
+tupla= (‘bateria’, ‘guitarra’, ‘bajo’, ‘voz’)
+print(tupla)
+
+float= 3.14
+print (float)
+
+integer= 450
+print (integer)
+
+decimal= 4.56789900034578
+print (decimal)
+
+dictionary= { ‘bateria’ : ‘Jose’, ‘guitarra’ : ‘Raul’, ‘bajo’ : ‘Esteban’, ‘voz’ : ‘Miguel’}
+print (dictionary)
+
+Exercise 2: Round your float up.
+
+float= 3.14
+round_up= 4
+
+Exercise 3: Get the square root of your float.
+
+import math
+
+float= 3.14
+sqrt = math.sqrt(float)
+print (sqrt)
+
+RUN>>> 1.772004514666935
+
+Exercise 4: Select the first element from your dictionary.
+
+dictionary= { ‘bateria’ : ‘Jose’, ‘guitarra’ : ‘Raul’, ‘bajo’ : ‘Esteban’, ‘voz’ : ‘Miguel’}
+first_element = dictionary[0]
+
+Exercise 5: Select the second element from your tuple.
+
+tupla= (‘bateria’, ‘guitarra’, ‘bajo’, ‘voz’)
+second_element = tupla[1]
+print(second_element)
+
+Exercise 6: Add an element to the end of your list.
+
+lista = [‘bateria’, ‘guitarra’, ‘bajo’, ‘voz’]
+lista.append(‘teclado’)
+print (lista)
+
+Exercise 7: Replace the first element in your list.
+
+lista = [‘bateria’, ‘guitarra’, ‘bajo’, ‘voz’]
+lista [0] = ‘saxofon’
+print(lista)
+
+Exercise 8: Sort your list alphabetically.
+
+lista = [‘bateria’, ‘guitarra’, ‘bajo’, ‘voz’]
+lista.sort()
+print (lista)
+
+Exercise 9: Use reassignment to add an element to your tuple.
+
+tupla= (‘bateria’, ‘guitarra’, ‘bajo’, ‘voz’)
+tupla= tupla + (‘teclado’,)
+print (tupla)
+
+
+
+
+
+
